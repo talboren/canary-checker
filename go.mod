@@ -94,6 +94,7 @@ require (
 	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.2.1 // indirect
+	github.com/RaveNoX/go-jsonmerge v1.0.0 // indirect
 	github.com/TomOnTime/utfutil v0.0.0-20230223141146-125e65197b36 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
@@ -280,3 +281,7 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.16.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
+
+replace github.com/flanksource/artifacts => ../artifacts
+
+replace github.com/flanksource/duty => ../duty
